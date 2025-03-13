@@ -1,0 +1,15 @@
+:root {
+    --bg-color: #FFFFFF;
+    --text-color: #333333;
+    --navbar-bg: #F4F4F4;
+    --card-bg: #F9F9F9;
+    --footer-bg: #F1F1F1;
+
+    body.dark-mode {
+        --bg-color: #000;
+        --text-color: #F4F4F4;
+        --navbar-bg: #1F1F1F;
+        --card-bg: #2C2C2C;
+        --footer-bg: #181818;
+    }
+}
