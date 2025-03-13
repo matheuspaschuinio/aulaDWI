@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Dark Mode</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/color.css">
+        <link rel="stylesheet" href="css/style.css">    
+    </head>
+
+    <body>
+       <!-- Navbar -->
+       <nav class="navbar">
+            <div class="logo">Logo Legal</div>
+            <ul>
+                <li><a href="#"></a>Início</li>
+                <li><a href="#"></a>Sobre</li>
+                <li><a href="#"></a>Contato</li>
+            </ul>
+            <div onclick="toggleDarkMode()" class="dark-mode-toggle">Dark Mode</div>
+       </nav>
+
+       <!-- Seção de cards -->
+       <section class="cards">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe possimus nulla ut consequuntur, sunt atque magnam suscipit ea omnis repellat voluptatibus aliquam dolores facilis. Reprehenderit culpa animi reiciendis inventore.
+                </p>
+            </div> <!-- FIM Card 1-->
+
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe possimus nulla ut consequuntur, sunt atque magnam suscipit ea omnis repellat voluptatibus aliquam dolores facilis. Reprehenderit culpa animi reiciendis inventore.
+                </p>
+            </div> <!-- FIM Card 2-->
+
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe possimus nulla ut consequuntur, sunt atque magnam suscipit ea omnis repellat voluptatibus aliquam dolores facilis. Reprehenderit culpa animi reiciendis inventore.
+                </p>
+            </div> <!-- FIM Card 3-->
+       </section>
+
+       <footer>
+            <p>Matheus Augusto Paschuinio - 2025</p>
+       </footer>
+        
+        <script src="js/script.js"></script>
+        <script>
+            function toggleDarkMode() {
+                document.body.classList.toggle('dark-mode');
+            }
+        </script>
+    </body>
+</html>
